@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(148,219,241);
+}
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;/* bütün linklerin alt çizgilerini kaldırdık */
+}
+input, textarea{
+    border: 3px solid rgb(221, 234, 240);
+    border-radius :10px ;
+    padding: 10px 30px;
+    width: 100%;
+}
+button{
+    background-color: rgb(15, 55, 78);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 3px solid rgb(21, 8, 61);
+background-color: rgb(34, 90, 122);
+color: aliceblue;
+padding: 10px 30px;
+border-radius: 20px;/* köşeler yuvarlanıyor */
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px dotted darkblue;
+    color: blue;
+    padding: 30px 20px;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.menu a{
+    font-weight: bold;
+}
