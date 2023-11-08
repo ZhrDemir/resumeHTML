@@ -1,0 +1,23 @@
+/* shift+alt+A yorum satırı formatını getirir */
+
+
+h1{
+    background-color: rgb(80, 235, 255);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    border: 3px dashed red;
+    border-top: 3px dotted blue;
+    border-radius: 30px ;
+    text-shadow:5px 5px 10px gray ;
+    box-shadow: 10px 10px 5px red;
+}
+ *{
+    text-align:center;
+    color: darkgreen;
+}
+a{
+    color: indigo;
+    font-size: 25px;
+    text-decoration: overline;/* üstünü çizer */
+}
