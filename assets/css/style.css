@@ -13,6 +13,7 @@ body{
 a{
     text-decoration: none;/* bütün linklerin alt çizgilerini kaldırdık */
 }
+
 input, textarea{
     border: 3px solid rgb(221, 234, 240);
     border-radius :10px ;
@@ -48,4 +49,53 @@ border-radius: 20px;/* köşeler yuvarlanıyor */
 
 .menu a{
     font-weight: bold;
+    font-size: 25px;
 }
+.menu a:visited{
+    color: antiquewhite;
+}
+.menu a:hover{
+    color: brown;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    
+}
+.content .about{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    width: 50px;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(21, 8, 61);
+    border-radius: 250px;
+}
+.section{
+   width: 60%;
+
+   
+}
+.section .card{
+    display: flex;
+    border: 5px solid rgb(21, 8, 61);
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.section .card .left{
+    flex: 2;
+}
+.section .card .right{
+    flex :2;
+}
+
